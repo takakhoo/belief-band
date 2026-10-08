@@ -1,0 +1,696 @@
+{
+ "ladder": {
+  "returns": {
+   "smoothed, full-sample fit": 0.8579215509273532,
+   "filtered, full-sample fit": 0.5532427190472051,
+   "real time": 0.4602722805339699
+  },
+  "rv_term_def": {
+   "smoothed, full-sample fit": 0.6054497063619345,
+   "filtered, full-sample fit": 0.5667838132857638,
+   "real time": 0.4846630740926654
+  }
+ },
+ "grid": {
+  "n_realtime_configs": 35,
+  "sharpe_min": 0.1816082417021563,
+  "sharpe_median": 0.4651561040810389,
+  "sharpe_max": 0.5690202194316112,
+  "best": "HMM[macro4,K=bic,myopic]",
+  "best_minus_6040_sharpe": -0.0021649236677971917,
+  "p_best_vs_6040": 0.9764,
+  "deflated_sharpe_prob": 0.9990691990110393,
+  "sr0_expected_max_under_null": 0.19734222051839662,
+  "beats_6040": 0,
+  "sharpe_6040": 0.5711851430994075,
+  "band_vs_myopic": {
+   "rv": [
+    0.4601339514198357,
+    0.4958185125231515
+   ],
+   "rv_term": [
+    0.5164320781372314,
+    0.5053998091572244
+   ],
+   "rv_term_def": [
+    0.4801850605834208,
+    0.4846630740926654
+   ],
+   "macro4": [
+    0.4899325478628178,
+    0.491329359198553
+   ],
+   "returns": [
+    0.4491634902127947,
+    0.4602722805339699
+   ]
+  }
+ },
+ "intl": {
+  "Europe_10bp": {
+   "window": [
+    "2009-10-01",
+    "2026-08-31"
+   ],
+   "jm": {
+    "sharpe": 0.00405078993729592,
+    "max_dd": -0.24523528129982142,
+    "cagr": 0.00985551088398795
+   },
+   "myopic": {
+    "sharpe": 0.0721044612201883,
+    "max_dd": -0.34819233293901786,
+    "cagr": 0.014642938352965817,
+    "switches_per_year": 10.621346023113528,
+    "time_in_market": 0.7971901200997055
+   },
+   "band": {
+    "sharpe": 0.15142312204595423,
+    "max_dd": -0.2860141620901422,
+    "cagr": 0.02484138690059523,
+    "switches_per_year": 6.053025152957172,
+    "time_in_market": 0.8008157715839564
+   },
+   "bh": {
+    "sharpe": 0.4202989985865033,
+    "max_dd": -0.35657558611927753,
+    "cagr": 0.07460133111425771
+   }
+  },
+  "Europe_25bp": {
+   "window": [
+    "2009-10-01",
+    "2026-08-31"
+   ],
+   "jm": {
+    "sharpe": -0.01674601318376891,
+    "max_dd": -0.2250322817773831,
+    "cagr": 0.0079353809703413
+   },
+   "myopic": {
+    "sharpe": -0.054430012475977146,
+    "max_dd": -0.3883042565541053,
+    "cagr": -0.001414492079939822,
+    "switches_per_year": 10.621346023113528,
+    "time_in_market": 0.7971901200997055
+   },
+   "band": {
+    "sharpe": 0.047236732105242825,
+    "max_dd": -0.32798921555115057,
+    "cagr": 0.011403860022566326,
+    "switches_per_year": 4.910944935418082,
+    "time_in_market": 0.8035350101971448
+   },
+   "bh": {
+    "sharpe": 0.4202989985865033,
+    "max_dd": -0.35657558611927753,
+    "cagr": 0.07460133111425771
+   }
+  },
+  "Japan_10bp": {
+   "window": [
+    "2009-10-01",
+    "2026-08-31"
+   ],
+   "jm": {
+    "sharpe": 0.0839137824395716,
+    "max_dd": -0.362031975185218,
+    "cagr": 0.014082546459277756
+   },
+   "myopic": {
+    "sharpe": 0.30245517351297013,
+    "max_dd": -0.3272763681547939,
+    "cagr": 0.04874228534076819,
+    "switches_per_year": 14.447314751869476,
+    "time_in_market": 0.8184908225696805
+   },
+   "band": {
+    "sharpe": 0.2735812585478627,
+    "max_dd": -0.3931188845085324,
+    "cagr": 0.043990939601657786,
+    "switches_per_year": 5.995921142080217,
+    "time_in_market": 0.7865397688647179
+   },
+   "bh": {
+    "sharpe": 0.4302520940870613,
+    "max_dd": -0.328474667495661,
+    "cagr": 0.07918281475569589
+   }
+  },
+  "Japan_25bp": {
+   "window": [
+    "2009-10-01",
+    "2026-08-31"
+   ],
+   "jm": {
+    "sharpe": 0.08827376126149335,
+    "max_dd": -0.3593229807548767,
+    "cagr": 0.01481536815078055
+   },
+   "myopic": {
+    "sharpe": 0.15848379164354176,
+    "max_dd": -0.35504362667417955,
+    "cagr": 0.026234321271107808,
+    "switches_per_year": 14.447314751869476,
+    "time_in_market": 0.8184908225696805
+   },
+   "band": {
+    "sharpe": 0.2357333740713187,
+    "max_dd": -0.417322300366215,
+    "cagr": 0.038269955852253235,
+    "switches_per_year": 4.282800815771584,
+    "time_in_market": 0.7976433265352368
+   },
+   "bh": {
+    "sharpe": 0.4302520940870613,
+    "max_dd": -0.328474667495661,
+    "cagr": 0.07918281475569589
+   }
+  },
+  "AsiaPacExJapan_10bp": {
+   "window": [
+    "2009-10-01",
+    "2026-08-31"
+   ],
+   "jm": {
+    "sharpe": 0.08761313042823245,
+    "max_dd": -0.2602672185248235,
+    "cagr": 0.017377101405003037
+   },
+   "myopic": {
+    "sharpe": 0.21202009534725655,
+    "max_dd": -0.355662907017559,
+    "cagr": 0.03152882795634682,
+    "switches_per_year": 10.392929979605709,
+    "time_in_market": 0.8486290505325176
+   },
+   "band": {
+    "sharpe": 0.16532550644876784,
+    "max_dd": -0.337183359862977,
+    "cagr": 0.026105725583064787,
+    "switches_per_year": 5.824609109449354,
+    "time_in_market": 0.8538409245411285
+   },
+   "bh": {
+    "sharpe": 0.3997324977621031,
+    "max_dd": -0.3718958706821961,
+    "cagr": 0.0627227242692272
+   }
+  },
+  "AsiaPacExJapan_25bp": {
+   "window": [
+    "2009-10-01",
+    "2026-08-31"
+   ],
+   "jm": {
+    "sharpe": 0.06566539955874992,
+    "max_dd": -0.25708263995798664,
+    "cagr": 0.01534445900343484
+   },
+   "myopic": {
+    "sharpe": 0.07501455703045601,
+    "max_dd": -0.4071804834413437,
+    "cagr": 0.015561034826790499,
+    "switches_per_year": 10.392929979605709,
+    "time_in_market": 0.8486290505325176
+   },
+   "band": {
+    "sharpe": 0.1974149637417592,
+    "max_dd": -0.33254354238143335,
+    "cagr": 0.0299473477983343,
+    "switches_per_year": 4.568320870156356,
+    "time_in_market": 0.8604124178563336
+   },
+   "bh": {
+    "sharpe": 0.3997324977621031,
+    "max_dd": -0.3718958706821961,
+    "cagr": 0.0627227242692272
+   }
+  },
+  "DevExUS_10bp": {
+   "window": [
+    "2009-10-01",
+    "2026-08-31"
+   ],
+   "jm": {
+    "sharpe": 0.23033029196502766,
+    "max_dd": -0.22134943943893315,
+    "cagr": 0.030669837140297584
+   },
+   "myopic": {
+    "sharpe": 0.26696104156339157,
+    "max_dd": -0.2649027674117922,
+    "cagr": 0.037234487805983596,
+    "switches_per_year": 10.164513936097892,
+    "time_in_market": 0.8450033990482665
+   },
+   "band": {
+    "sharpe": 0.17621417737251333,
+    "max_dd": -0.32529826211434243,
+    "cagr": 0.02716491861951309,
+    "switches_per_year": 4.339904826648538,
+    "time_in_market": 0.8556537502832541
+   },
+   "bh": {
+    "sharpe": 0.4858082417889909,
+    "max_dd": -0.3402022736023145,
+    "cagr": 0.07497257382886957
+   }
+  },
+  "DevExUS_25bp": {
+   "window": [
+    "2009-10-01",
+    "2026-08-31"
+   ],
+   "jm": {
+    "sharpe": 0.09818394032222393,
+    "max_dd": -0.3229754040647399,
+    "cagr": 0.018370685488387384
+   },
+   "myopic": {
+    "sharpe": 0.12687144092207214,
+    "max_dd": -0.2834711589042501,
+    "cagr": 0.02150977302631496,
+    "switches_per_year": 10.164513936097892,
+    "time_in_market": 0.8450033990482665
+   },
+   "band": {
+    "sharpe": 0.1368464334391057,
+    "max_dd": -0.3340828436872987,
+    "cagr": 0.022669224044775893,
+    "switches_per_year": 3.540448674371176,
+    "time_in_market": 0.8549739406299569
+   },
+   "bh": {
+    "sharpe": 0.4858082417889909,
+    "max_dd": -0.3402022736023145,
+    "cagr": 0.07497257382886957
+   }
+  }
+ },
+ "alloc": {
+  "myopic_threshold": 0.495,
+  "rows": [
+   {
+    "asset": "E-mini S&P 500 futures",
+    "one_way_cost": 1.6e-05,
+    "buy_equity_below": 0.4875,
+    "sell_equity_above": 0.5125,
+    "switches_per_year": 10.795149375087115
+   },
+   {
+    "asset": "SPY ETF",
+    "one_way_cost": 6.5e-06,
+    "buy_equity_below": 0.4925,
+    "sell_equity_above": 0.5025000000000001,
+    "switches_per_year": 11.00590066440552
+   },
+   {
+    "asset": "10-year Treasury (interdealer)",
+    "one_way_cost": 8.9e-05,
+    "buy_equity_below": 0.46,
+    "sell_equity_above": 0.5675,
+    "switches_per_year": 9.48380801932816
+   },
+   {
+    "asset": "US large-cap stocks, institutional",
+    "one_way_cost": 0.00089,
+    "buy_equity_below": 0.32,
+    "sell_equity_above": 0.755,
+    "switches_per_year": 5.924452910839567
+   },
+   {
+    "asset": "US equities, 2001-2025 schedule",
+    "one_way_cost": 0.001,
+    "buy_equity_below": 0.3075,
+    "sell_equity_above": 0.765,
+    "switches_per_year": 5.807368861218231
+   },
+   {
+    "asset": "Investment-grade corporates",
+    "one_way_cost": 0.0038,
+    "buy_equity_below": 0.1675,
+    "sell_equity_above": 0.8875000000000001,
+    "switches_per_year": 4.0511081168982015
+   },
+   {
+    "asset": "High-yield corporates",
+    "one_way_cost": 0.0051,
+    "buy_equity_below": 0.1375,
+    "sell_equity_above": 0.9125,
+    "switches_per_year": 3.7935232077312637
+   },
+   {
+    "asset": "IG corporates, crisis",
+    "one_way_cost": 0.0071,
+    "buy_equity_below": 0.1075,
+    "sell_equity_above": 0.935,
+    "switches_per_year": 3.5359382985643264
+   },
+   {
+    "asset": "US equities, 1953-75",
+    "one_way_cost": 0.01,
+    "buy_equity_below": 0.08,
+    "sell_equity_above": 0.9575,
+    "switches_per_year": 3.044185290154718
+   },
+   {
+    "asset": "Buyout fund stake, secondary 2025",
+    "one_way_cost": 0.08,
+    "buy_equity_below": 0.035,
+    "sell_equity_above": null,
+    "switches_per_year": 0.0
+   },
+   {
+    "asset": "Venture fund stake, secondary 2025",
+    "one_way_cost": 0.22,
+    "buy_equity_below": 0.025,
+    "sell_equity_above": null,
+    "switches_per_year": 0.0
+   },
+   {
+    "asset": "PE stake, secondary 2009",
+    "one_way_cost": 0.456,
+    "buy_equity_below": 0.0125,
+    "sell_equity_above": null,
+    "switches_per_year": 0.0
+   }
+  ]
+ },
+ "theory": {
+  "bandwidth": [
+   {
+    "signal_sep": 0.1,
+    "cost": 1e-05,
+    "b_star": 0.25,
+    "enter_below": 0.2425,
+    "leave_above": 0.25625,
+    "half_width_dp": 0.006874999999999992,
+    "half_width_law": 0.0158764903604521,
+    "ratio": 0.4330302128438555
+   },
+   {
+    "signal_sep": 0.1,
+    "cost": 2e-05,
+    "b_star": 0.25,
+    "enter_below": 0.23875000000000002,
+    "leave_above": 0.26,
+    "half_width_dp": 0.010624999999999996,
+    "half_width_law": 0.02000312440358664,
+    "ratio": 0.5311670209927251
+   },
+   {
+    "signal_sep": 0.1,
+    "cost": 5e-05,
+    "b_star": 0.25,
+    "enter_below": 0.23125,
+    "leave_above": 0.26625,
+    "half_width_dp": 0.017499999999999988,
+    "half_width_law": 0.027148416634017528,
+    "ratio": 0.644604811982741
+   },
+   {
+    "signal_sep": 0.1,
+    "cost": 0.0001,
+    "b_star": 0.25,
+    "enter_below": 0.22375,
+    "leave_above": 0.2725,
+    "half_width_dp": 0.024375000000000008,
+    "half_width_law": 0.0342048615885148,
+    "ratio": 0.7126179983778845
+   },
+   {
+    "signal_sep": 0.1,
+    "cost": 0.0002,
+    "b_star": 0.25,
+    "enter_below": 0.21375,
+    "leave_above": 0.28,
+    "half_width_dp": 0.033125000000000016,
+    "half_width_law": 0.04309542512411039,
+    "ratio": 0.7686430730084093
+   },
+   {
+    "signal_sep": 0.1,
+    "cost": 0.0005,
+    "b_star": 0.25,
+    "enter_below": 0.19625,
+    "leave_above": 0.2925,
+    "half_width_dp": 0.04812499999999999,
+    "half_width_law": 0.05848949057576599,
+    "ratio": 0.8227973867828432
+   },
+   {
+    "signal_sep": 0.1,
+    "cost": 0.001,
+    "b_star": 0.25,
+    "enter_below": 0.1775,
+    "leave_above": 0.305,
+    "half_width_dp": 0.06375,
+    "half_width_law": 0.07369214037403538,
+    "ratio": 0.8650854714821341
+   },
+   {
+    "signal_sep": 0.2,
+    "cost": 1e-05,
+    "b_star": 0.25,
+    "enter_below": 0.2425,
+    "leave_above": 0.2575,
+    "half_width_dp": 0.007500000000000007,
+    "half_width_law": 0.025180231340178768,
+    "ratio": 0.29785270431700334
+   },
+   {
+    "signal_sep": 0.2,
+    "cost": 2e-05,
+    "b_star": 0.25,
+    "enter_below": 0.23750000000000002,
+    "leave_above": 0.2625,
+    "half_width_dp": 0.012499999999999997,
+    "half_width_law": 0.03172510350671382,
+    "ratio": 0.394009746803653
+   },
+   {
+    "signal_sep": 0.2,
+    "cost": 5e-05,
+    "b_star": 0.25,
+    "enter_below": 0.2275,
+    "leave_above": 0.2725,
+    "half_width_dp": 0.022500000000000006,
+    "half_width_law": 0.043057589923460426,
+    "ratio": 0.5225559544785534
+   },
+   {
+    "signal_sep": 0.2,
+    "cost": 0.0001,
+    "b_star": 0.25,
+    "enter_below": 0.2175,
+    "leave_above": 0.28375,
+    "half_width_dp": 0.033125,
+    "half_width_law": 0.05424916390230917,
+    "ratio": 0.6106084890018002
+   },
+   {
+    "signal_sep": 0.2,
+    "cost": 0.0002,
+    "b_star": 0.25,
+    "enter_below": 0.20375000000000001,
+    "leave_above": 0.29875,
+    "half_width_dp": 0.0475,
+    "half_width_law": 0.06834966353971642,
+    "ratio": 0.6949558716174051
+   },
+   {
+    "signal_sep": 0.2,
+    "cost": 0.0005,
+    "b_star": 0.25,
+    "enter_below": 0.1825,
+    "leave_above": 0.32625,
+    "half_width_dp": 0.071875,
+    "half_width_law": 0.09276476540027041,
+    "ratio": 0.7748092682589857
+   },
+   {
+    "signal_sep": 0.2,
+    "cost": 0.001,
+    "b_star": 0.25,
+    "enter_below": 0.1625,
+    "leave_above": 0.35375,
+    "half_width_dp": 0.095625,
+    "half_width_law": 0.1168762806163603,
+    "ratio": 0.8181728533429601
+   }
+  ],
+  "refinement": [
+   {
+    "dt": 1.0,
+    "sep_per_unit_time": 0.1,
+    "cost": 0.0001,
+    "half_width_dp": 0.023749999999999993,
+    "half_width_law": 0.03419914316997895,
+    "one_step_sd": 0.018821507052312204,
+    "law_minus_correction": 0.023233786653172814
+   },
+   {
+    "dt": 0.25,
+    "sep_per_unit_time": 0.1,
+    "cost": 0.0001,
+    "half_width_dp": 0.029166666666666688,
+    "half_width_law": 0.034150253367112984,
+    "one_step_sd": 0.009410501138462132,
+    "law_minus_correction": 0.028667722149063123
+   },
+   {
+    "dt": 0.0625,
+    "sep_per_unit_time": 0.1,
+    "cost": 0.0001,
+    "half_width_dp": 0.03166666666666666,
+    "half_width_law": 0.03419007831038922,
+    "one_step_sd": 0.004715973428204565,
+    "law_minus_correction": 0.03144256559420135
+   },
+   {
+    "dt": 0.015625,
+    "sep_per_unit_time": 0.1,
+    "cost": 0.0001,
+    "half_width_dp": 0.033333333333333326,
+    "half_width_law": 0.03450136807766814,
+    "one_step_sd": 0.0023905783932604524,
+    "law_minus_correction": 0.033108623899924194
+   },
+   {
+    "dt": 1.0,
+    "sep_per_unit_time": 0.1,
+    "cost": 0.0005,
+    "half_width_dp": 0.04791666666666668,
+    "half_width_law": 0.05847971221761664,
+    "one_step_sd": 0.018821507052312204,
+    "law_minus_correction": 0.04751435570081051
+   },
+   {
+    "dt": 0.25,
+    "sep_per_unit_time": 0.1,
+    "cost": 0.0005,
+    "half_width_dp": 0.053333333333333344,
+    "half_width_law": 0.05839611183067809,
+    "one_step_sd": 0.009410501138462132,
+    "law_minus_correction": 0.05291358061262823
+   },
+   {
+    "dt": 0.0625,
+    "sep_per_unit_time": 0.1,
+    "cost": 0.0005,
+    "half_width_dp": 0.056249999999999994,
+    "half_width_law": 0.0584642115257582,
+    "one_step_sd": 0.004715973428204565,
+    "law_minus_correction": 0.05571669880957033
+   },
+   {
+    "dt": 0.015625,
+    "sep_per_unit_time": 0.1,
+    "cost": 0.0005,
+    "half_width_dp": 0.057499999999999996,
+    "half_width_law": 0.05899650954025175,
+    "one_step_sd": 0.0023905783932604524,
+    "law_minus_correction": 0.0576037653625078
+   }
+  ]
+ },
+ "eras": [
+  {
+   "era": "1942-2025",
+   "strategy": "Belief band",
+   "Sharpe": 0.48,
+   "MaxDD": -0.357
+  },
+  {
+   "era": "1942-2025",
+   "strategy": "Myopic HMM",
+   "Sharpe": -0.114,
+   "MaxDD": -0.936
+  },
+  {
+   "era": "1942-2025",
+   "strategy": "Buy and hold",
+   "Sharpe": 0.571,
+   "MaxDD": -0.502
+  },
+  {
+   "era": "1942-2025",
+   "strategy": "Jump model",
+   "Sharpe": 0.465,
+   "MaxDD": -0.251
+  },
+  {
+   "era": "1950-1989 (pre-sample)",
+   "strategy": "Belief band",
+   "Sharpe": 0.45,
+   "MaxDD": -0.357
+  },
+  {
+   "era": "1950-1989 (pre-sample)",
+   "strategy": "Myopic HMM",
+   "Sharpe": -0.458,
+   "MaxDD": -0.892
+  },
+  {
+   "era": "1950-1989 (pre-sample)",
+   "strategy": "Buy and hold",
+   "Sharpe": 0.517,
+   "MaxDD": -0.464
+  },
+  {
+   "era": "1950-1989 (pre-sample)",
+   "strategy": "Jump model",
+   "Sharpe": 0.332,
+   "MaxDD": -0.249
+  },
+  {
+   "era": "1990-2023 (paper window)",
+   "strategy": "Belief band",
+   "Sharpe": 0.426,
+   "MaxDD": -0.293
+  },
+  {
+   "era": "1990-2023 (paper window)",
+   "strategy": "Myopic HMM",
+   "Sharpe": 0.357,
+   "MaxDD": -0.246
+  },
+  {
+   "era": "1990-2023 (paper window)",
+   "strategy": "Buy and hold",
+   "Sharpe": 0.55,
+   "MaxDD": -0.502
+  },
+  {
+   "era": "1990-2023 (paper window)",
+   "strategy": "Jump model",
+   "Sharpe": 0.555,
+   "MaxDD": -0.251
+  },
+  {
+   "era": "2024-2025 (post-publication)",
+   "strategy": "Belief band",
+   "Sharpe": 0.737,
+   "MaxDD": -0.076
+  },
+  {
+   "era": "2024-2025 (post-publication)",
+   "strategy": "Myopic HMM",
+   "Sharpe": 0.628,
+   "MaxDD": -0.117
+  },
+  {
+   "era": "2024-2025 (post-publication)",
+   "strategy": "Buy and hold",
+   "Sharpe": 1.368,
+   "MaxDD": -0.083
+  },
+  {
+   "era": "2024-2025 (post-publication)",
+   "strategy": "Jump model",
+   "Sharpe": 0.742,
+   "MaxDD": -0.08
+  }
+ ]
+}

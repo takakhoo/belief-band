@@ -1,0 +1,74 @@
+[
+  {
+    "dt": 1.0,
+    "sep_per_unit_time": 0.1,
+    "cost": 0.0001,
+    "half_width_dp": 0.023749999999999993,
+    "half_width_law": 0.03419914316997895,
+    "one_step_sd": 0.018821507052312204,
+    "law_minus_correction": 0.023233786653172814
+  },
+  {
+    "dt": 0.25,
+    "sep_per_unit_time": 0.1,
+    "cost": 0.0001,
+    "half_width_dp": 0.029166666666666688,
+    "half_width_law": 0.034150253367112984,
+    "one_step_sd": 0.009410501138462132,
+    "law_minus_correction": 0.028667722149063123
+  },
+  {
+    "dt": 0.0625,
+    "sep_per_unit_time": 0.1,
+    "cost": 0.0001,
+    "half_width_dp": 0.03166666666666666,
+    "half_width_law": 0.03419007831038922,
+    "one_step_sd": 0.004715973428204565,
+    "law_minus_correction": 0.03144256559420135
+  },
+  {
+    "dt": 0.015625,
+    "sep_per_unit_time": 0.1,
+    "cost": 0.0001,
+    "half_width_dp": 0.033333333333333326,
+    "half_width_law": 0.03450136807766814,
+    "one_step_sd": 0.0023905783932604524,
+    "law_minus_correction": 0.033108623899924194
+  },
+  {
+    "dt": 1.0,
+    "sep_per_unit_time": 0.1,
+    "cost": 0.0005,
+    "half_width_dp": 0.04791666666666668,
+    "half_width_law": 0.05847971221761664,
+    "one_step_sd": 0.018821507052312204,
+    "law_minus_correction": 0.04751435570081051
+  },
+  {
+    "dt": 0.25,
+    "sep_per_unit_time": 0.1,
+    "cost": 0.0005,
+    "half_width_dp": 0.053333333333333344,
+    "half_width_law": 0.05839611183067809,
+    "one_step_sd": 0.009410501138462132,
+    "law_minus_correction": 0.05291358061262823
+  },
+  {
+    "dt": 0.0625,
+    "sep_per_unit_time": 0.1,
+    "cost": 0.0005,
+    "half_width_dp": 0.056249999999999994,
+    "half_width_law": 0.0584642115257582,
+    "one_step_sd": 0.004715973428204565,
+    "law_minus_correction": 0.05571669880957033
+  },
+  {
+    "dt": 0.015625,
+    "sep_per_unit_time": 0.1,
+    "cost": 0.0005,
+    "half_width_dp": 0.057499999999999996,
+    "half_width_law": 0.05899650954025175,
+    "one_step_sd": 0.0023905783932604524,
+    "law_minus_correction": 0.0576037653625078
+  }
+]

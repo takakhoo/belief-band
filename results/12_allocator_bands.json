@@ -1,0 +1,89 @@
+{
+  "myopic_threshold": 0.495,
+  "rows": [
+    {
+      "asset": "E-mini S&P 500 futures",
+      "one_way_cost": 1.6e-05,
+      "buy_equity_below": 0.4875,
+      "sell_equity_above": 0.5125,
+      "switches_per_year": 10.795149375087115
+    },
+    {
+      "asset": "SPY ETF",
+      "one_way_cost": 6.5e-06,
+      "buy_equity_below": 0.4925,
+      "sell_equity_above": 0.5025000000000001,
+      "switches_per_year": 11.00590066440552
+    },
+    {
+      "asset": "10-year Treasury (interdealer)",
+      "one_way_cost": 8.9e-05,
+      "buy_equity_below": 0.46,
+      "sell_equity_above": 0.5675,
+      "switches_per_year": 9.48380801932816
+    },
+    {
+      "asset": "US large-cap stocks, institutional",
+      "one_way_cost": 0.00089,
+      "buy_equity_below": 0.32,
+      "sell_equity_above": 0.755,
+      "switches_per_year": 5.924452910839567
+    },
+    {
+      "asset": "US equities, 2001-2025 schedule",
+      "one_way_cost": 0.001,
+      "buy_equity_below": 0.3075,
+      "sell_equity_above": 0.765,
+      "switches_per_year": 5.807368861218231
+    },
+    {
+      "asset": "Investment-grade corporates",
+      "one_way_cost": 0.0038,
+      "buy_equity_below": 0.1675,
+      "sell_equity_above": 0.8875000000000001,
+      "switches_per_year": 4.0511081168982015
+    },
+    {
+      "asset": "High-yield corporates",
+      "one_way_cost": 0.0051,
+      "buy_equity_below": 0.1375,
+      "sell_equity_above": 0.9125,
+      "switches_per_year": 3.7935232077312637
+    },
+    {
+      "asset": "IG corporates, crisis",
+      "one_way_cost": 0.0071,
+      "buy_equity_below": 0.1075,
+      "sell_equity_above": 0.935,
+      "switches_per_year": 3.5359382985643264
+    },
+    {
+      "asset": "US equities, 1953-75",
+      "one_way_cost": 0.01,
+      "buy_equity_below": 0.08,
+      "sell_equity_above": 0.9575,
+      "switches_per_year": 3.044185290154718
+    },
+    {
+      "asset": "Buyout fund stake, secondary 2025",
+      "one_way_cost": 0.08,
+      "buy_equity_below": 0.035,
+      "sell_equity_above": null,
+      "switches_per_year": 0.0
+    },
+    {
+      "asset": "Venture fund stake, secondary 2025",
+      "one_way_cost": 0.22,
+      "buy_equity_below": 0.025,
+      "sell_equity_above": null,
+      "switches_per_year": 0.0
+    },
+    {
+      "asset": "PE stake, secondary 2009",
+      "one_way_cost": 0.456,
+      "buy_equity_below": 0.0125,
+      "sell_equity_above": null,
+      "switches_per_year": 0.0
+    }
+  ]
+}

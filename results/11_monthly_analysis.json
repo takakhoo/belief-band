@@ -1,0 +1,96 @@
+{
+  "flat10": {
+    "n_realtime_configs": 35,
+    "sharpe_min": 0.1816082417021563,
+    "sharpe_median": 0.4651561040810389,
+    "sharpe_max": 0.5690202194316112,
+    "best": "HMM[macro4,K=bic,myopic]",
+    "best_minus_6040_sharpe": -0.0021649236677971917,
+    "p_best_vs_6040": 0.9764,
+    "deflated_sharpe_prob": 0.9990691990110393,
+    "sr0_expected_max_under_null": 0.19734222051839662,
+    "beats_6040": 0,
+    "sharpe_6040": 0.5711851430994075,
+    "band_vs_myopic": {
+      "rv": [
+        0.4601339514198357,
+        0.4958185125231515
+      ],
+      "rv_term": [
+        0.5164320781372314,
+        0.5053998091572244
+      ],
+      "rv_term_def": [
+        0.4801850605834208,
+        0.4846630740926654
+      ],
+      "macro4": [
+        0.4899325478628178,
+        0.491329359198553
+      ],
+      "returns": [
+        0.4491634902127947,
+        0.4602722805339699
+      ]
+    },
+    "ladder": {
+      "returns": {
+        "smoothed, full-sample fit": 0.8579215509273532,
+        "filtered, full-sample fit": 0.5532427190472051,
+        "real time": 0.4602722805339699
+      },
+      "rv_term_def": {
+        "smoothed, full-sample fit": 0.6054497063619345,
+        "filtered, full-sample fit": 0.5667838132857638,
+        "real time": 0.4846630740926654
+      }
+    }
+  },
+  "jones": {
+    "n_realtime_configs": 35,
+    "sharpe_min": 0.132170313102429,
+    "sharpe_median": 0.4253543023662159,
+    "sharpe_max": 0.5407881862089164,
+    "best": "HMM[macro4,K=bic,myopic]",
+    "best_minus_6040_sharpe": -0.02339783199727985,
+    "p_best_vs_6040": 0.7514,
+    "deflated_sharpe_prob": 0.9974264790611086,
+    "sr0_expected_max_under_null": 0.2078399910608413,
+    "beats_6040": 0,
+    "sharpe_6040": 0.5641860182061954,
+    "band_vs_myopic": {
+      "rv": [
+        0.4510492890194532,
+        0.4551527430785065
+      ],
+      "rv_term": [
+        0.500463309388619,
+        0.4830469461585328
+      ],
+      "rv_term_def": [
+        0.4692885125754745,
+        0.4705260844956341
+      ],
+      "macro4": [
+        0.480173799500367,
+        0.4757396976612476
+      ],
+      "returns": [
+        0.4180445615872168,
+        0.3462063991532454
+      ]
+    },
+    "ladder": {
+      "returns": {
+        "smoothed, full-sample fit": 0.824062653198922,
+        "filtered, full-sample fit": 0.4714813287506283,
+        "real time": 0.3462063991532454
+      },
+      "rv_term_def": {
+        "smoothed, full-sample fit": 0.5946277826671444,
+        "filtered, full-sample fit": 0.5561531634981168,
+        "real time": 0.4705260844956341
+      }
+    }
+  }
+}
