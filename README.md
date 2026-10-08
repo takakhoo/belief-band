@@ -2,7 +2,7 @@
 
 **A century of real-time evidence on regime-switching allocation, a faithful test of the state of the art outside its sample, and a cube-root law for trading on uncertain beliefs.**
 
-[Paper (PDF)](paper/belief_band.pdf) · [Interactive explorer](https://takakhoo.com/regimes) · prepared for ACM ICAIF 2027
+[Paper (PDF)](paper/belief_band.pdf) · [Interactive explorer](https://takakhoo.com/regimes) · manuscript in preparation for ACM ICAIF 2027, not yet peer reviewed
 
 ![Growth of $1 and drawdowns, 1942-2025, historical costs](figures/fig1_wealth_jones.png)
 
